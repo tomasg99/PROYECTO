@@ -1,0 +1,41 @@
+.barraNav {
+    background-color: #6f42c1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0%;
+    height: 60px;
+    
+}
+
+.barNav {
+    img {
+        width: 50px;
+    font-size: 50px;
+    }
+}
+.contenedor{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.boton{
+    list-style-type:none;
+    display: inline-block;
+    border:none;
+    margin: 5px;
+    background-color:#6f42c1;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: space-around;
+    color: white;    
+    transition: all 0s ease-in-out;
+}
+.boton:hover{
+    background-color: #6f42c1;
+    color: #14080E;
+    border:none;
+}
