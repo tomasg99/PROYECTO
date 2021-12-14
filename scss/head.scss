@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d6efd;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display:grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+}
+header{
+    grid-area: header;
+    margin: 0%;
+}
+main{
+    grid-area: main;
+   
+}
+footer{
+    grid-area: footer;
+    
+   
+}
+ @media (min-width:576px) and (max-width: 1200px){
+   
+    body{
+        display:grid;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "main main main"
+        "footer footer footer";
+        
+    }
+}
